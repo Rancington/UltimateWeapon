@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 104
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 103
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 104
+  controlID: 38
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,7 +391,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -463,18 +463,18 @@ MonoBehaviour:
     m_Folders:
     - Assets/Scenes
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 55
   m_LastFolders:
   - Assets/Scenes
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 55
   m_LastProjectPath: C:\Users\blunte3\UltimateWeapon
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 043a0000
-    m_LastClickedID: 14852
-    m_ExpandedIDs: 00000000fc390000fe39000000ca9a3b
+    m_SelectedIDs: 203a0000
+    m_LastClickedID: 14880
+    m_ExpandedIDs: 000000001a3a00001c3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc390000fe390000
+    m_ExpandedIDs: 000000001a3a00001c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,7 +546,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -555,7 +555,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 55
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 181
 --- !u!114 &16
@@ -625,9 +625,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 263a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0471fffff48cffff3499ffffd89cffff44a6ffffbaa7ffff80acffff1eadffff4eb5ffff7ab5ffff20bbffff16bdffff4cbfffff5abfffff3cc5ffffd2c5ffff78c6ffff7ac7ffffacc8ffff4cc9ffffd2c9ffff3acbffffeccbffff7cccffff7ccfffff1ad0ffffaed1ffffead1ffff72d2ffff46d4ffffced4ffffa0d6ffff04d7ffff8cd7ffffbad8ffff64dafffff0daffff44dcffffccdcffffa6edffff74f4ffff7ef4ffff5cfbffff72390000a6390000d4400000f04000005041000088420000a44200008a43000090430000a6430000a0450000cc450000d2450000e8450000b8480000cc480000b04a0000c44a0000244c00006e4c0000384d00003c4d0000504d0000344f0000484f00007a4f00008e4f00007251000086510000b8510000cc51000072520000b8530000cc530000065400001a540000365500003a5500005255000082550000b6590000ba590000d2590000025a0000485a00004c5a0000585c00007a5e0000045f0000185f0000586200006c620000
+      m_ExpandedIDs: b2e2ffffdee2ffffd2ebffffb0f3ffff84f6ffffd4f6ffff30f9ffff48faffff5cfbffff763900007a3b0000b03b00007642000086420000ac42000034480000684800009e480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -687,9 +687,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 542.6116, y: 328.69098, z: -9.204944}
+    m_Target: {x: 2.0540366, y: -0.91487324, z: -122.62206}
     speed: 2
-    m_Value: {x: 542.6116, y: 328.69098, z: -9.204944}
+    m_Value: {x: 2.0540366, y: -0.91487324, z: -122.62206}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -739,9 +739,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 444.80893
+    m_Target: 7.1203847
     speed: 2
-    m_Value: 444.80893
+    m_Value: 7.1203847
   m_Ortho:
     m_Target: 1
     speed: 2

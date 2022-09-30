@@ -7,7 +7,7 @@ public class CharacterSelection : MonoBehaviour
     public GameObject[] characters;
     public Text nameText;
     public Text networthText;
-    public int selectedCharacter = 0;
+    public int selectedCharacter = -1;
     public string netWorth;
     public string name;
 
@@ -38,5 +38,16 @@ public class CharacterSelection : MonoBehaviour
         PlayerPrefs.SetString("netWorth", netWorth);
         PlayerPrefs.SetString("name", name);
         SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+
+    /*
+    TO REMOVE THE AUTO SAVE REMOVE THE VOID START() FUNCTION
+    */
+    void Start()
+    {
+        if(PlayerPrefs.GetInt("selectedCharacter") != -1)
+        {
+            SceneManager.LoadScene(1, LoadSceneMode.Single);
+        }
     }
 }

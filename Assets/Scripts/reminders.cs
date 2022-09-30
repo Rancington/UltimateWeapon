@@ -14,7 +14,8 @@ public class reminders : MonoBehaviour
         "Happy winning wargames Wednesday.", 
         "Kill yourself.",
         "Remember to drink water.", 
-        "Have you meditated today?"
+        "Have you meditated today?",
+        "Got Milk?"
     };
 
     void Start()
